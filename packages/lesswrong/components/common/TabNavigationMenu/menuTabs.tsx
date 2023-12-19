@@ -169,15 +169,6 @@ export const menuTabs: ForumOptions<Array<MenuTab>> = {
       tooltip: "Top posts from the Annual Review (2018 through " + REVIEW_YEAR + ")",
       subItem: true,
     }, {
-      id: 'events',
-      title: 'Community Events', // Events hide on mobile
-      mobileTitle: 'Community',
-      link: communityPath,
-      icon: communityGlobeIcon,
-      tooltip: 'Find a meetup near you.',
-      showOnMobileStandalone: true,
-      showOnCompressed: true,
-    }, {
       id: 'eventsList',
       customComponentName: "EventsList",
     }, {

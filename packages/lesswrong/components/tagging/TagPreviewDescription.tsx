@@ -22,7 +22,6 @@ const CoreTagCustomDescriptions: Record<string, string> = {
   'World Optimization': 'The <strong>World Optimization</strong> tag is for posts about how to make the world better at scale, e.g. altruistic cause areas, society-wide interventions, moral philosophy, etc.',
   'Practical': 'The <strong>Practical</strong> tag is for posts about things you can use to make your life locally better, e.g. health, productivity, relationships, DIY, etc.',
   'Site Meta': '<strong>Site Meta</strong> is for posts about the site itself, including bugs, feature requests, and site policy.',
-  'Community': 'The <strong>Community</strong> tag is for LessWrong/Rationality community events, analysis of community health, norms and directions of the community, and posts about understanding communities in general.' 
 };
 
 const getTagDescriptionHtmlHighlight = (tag: TagPreviewFragment | TagSectionPreviewFragment) => {
