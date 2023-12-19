@@ -5,13 +5,11 @@ import { getReviewPhase, reviewIsActive, REVIEW_YEAR } from '../../lib/reviewUti
 import { showReviewOnFrontPageIfActive } from '../../lib/publicSettings';
 
 const LWHome = () => {
-  const { Books2021SaleAnimation, BookAnimation, Book2019Animation, Book2020Animation, RecentDiscussionFeed, HomeLatestPosts, AnalyticsInViewTracker, LWRecommendations, FrontpageReviewWidget, SingleColumnSection, FrontpageBestOfLWWidget, DialoguesList } = Components
+  const { RecentDiscussionFeed, HomeLatestPosts, AnalyticsInViewTracker, LWRecommendations, FrontpageReviewWidget, SingleColumnSection, FrontpageBestOfLWWidget, DialoguesList } = Components
 
   return (
       <AnalyticsContext pageContext="homePage">
         <React.Fragment>
-
-          <Books2021SaleAnimation/>
 
           {!reviewIsActive() && <LWRecommendations configName="frontpage" />}
 
